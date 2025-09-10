@@ -1,5 +1,5 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []
         nums.sort()
         for i,a in enumerate(nums):
